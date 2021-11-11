@@ -10,6 +10,7 @@
 		44029241273C6A0F00AA2C67 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44029240273C6A0F00AA2C67 /* Modifiers.swift */; };
 		44029243273C766D00AA2C67 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44029242273C766C00AA2C67 /* Extensions.swift */; };
 		44029245273C7AF300AA2C67 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44029244273C7AF300AA2C67 /* ReelView.swift */; };
+		44029247273C8E6700AA2C67 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44029246273C8E6700AA2C67 /* InfoView.swift */; };
 		44B0A8962719C73400F7B135 /* Slot_MachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0A8952719C73400F7B135 /* Slot_MachineApp.swift */; };
 		44B0A8982719C73400F7B135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0A8972719C73400F7B135 /* ContentView.swift */; };
 		44B0A89A2719C73B00F7B135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B0A8992719C73B00F7B135 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		44029240273C6A0F00AA2C67 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		44029242273C766C00AA2C67 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		44029244273C7AF300AA2C67 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		44029246273C8E6700AA2C67 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		44B0A8922719C73400F7B135 /* Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B0A8952719C73400F7B135 /* Slot_MachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slot_MachineApp.swift; sourceTree = "<group>"; };
 		44B0A8972719C73400F7B135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				44B0A8972719C73400F7B135 /* ContentView.swift */,
 				44BCE821273C688A009026A3 /* LogoView.swift */,
 				44029244273C7AF300AA2C67 /* ReelView.swift */,
+				44029246273C8E6700AA2C67 /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				44B0A8982719C73400F7B135 /* ContentView.swift in Sources */,
 				44BCE822273C688B009026A3 /* LogoView.swift in Sources */,
 				44B0A8962719C73400F7B135 /* Slot_MachineApp.swift in Sources */,
+				44029247273C8E6700AA2C67 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Slot Machine/Preview Content\"";
-				DEVELOPMENT_TEAM = J5833WMGJ3;
+				DEVELOPMENT_TEAM = WQYHWJVQDB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Slot-Machine-Info.plist";
@@ -358,7 +362,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Slot Machine/Preview Content\"";
-				DEVELOPMENT_TEAM = J5833WMGJ3;
+				DEVELOPMENT_TEAM = WQYHWJVQDB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Slot-Machine-Info.plist";
@@ -391,7 +395,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
